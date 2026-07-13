@@ -29,11 +29,11 @@ const NavbarFlight = () => {
                                 Home
                             </Link>
 
-                            <Link className="nav-link" to="/add-flight">
+                            <Link className="nav-link" to="/add">
                                 Add Flight
                             </Link>
 
-                            <Link className="nav-link" to="/flights">
+                            <Link className="nav-link" to="/view">
                                 View Flights
                             </Link>
 

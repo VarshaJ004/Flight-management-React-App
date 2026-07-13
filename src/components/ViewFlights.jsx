@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import axios from 'axios'
+import NavbarFlight from './NavbarFlight'
+
 
 
 const ViewFlights = () => {
@@ -28,6 +30,7 @@ const ViewFlights = () => {
 
     return (
         <div>
+            <NavbarFlight />
            
 
             <div className="container">
